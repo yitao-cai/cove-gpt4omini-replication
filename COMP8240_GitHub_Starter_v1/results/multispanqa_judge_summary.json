@@ -1,0 +1,66 @@
+{
+  "prompt_version": "semantic_span_judge_v1_2026_11",
+  "judge_model_requested": "gpt-4o-mini",
+  "total_selected_questions": 60,
+  "total_judged_rows": 120,
+  "complete_question_pairs": 60,
+  "methods": {
+    "Baseline": {
+      "judged_rows": 60,
+      "human_micro": {
+        "tp": 80,
+        "pred": 110,
+        "gold": 170,
+        "fp": 30,
+        "fn": 90,
+        "precision": 0.7272727272727273,
+        "recall": 0.47058823529411764,
+        "f1": 0.5714285714285714
+      },
+      "judge_micro": {
+        "tp": 79,
+        "pred": 96,
+        "gold": 170,
+        "fp": 17,
+        "fn": 91,
+        "precision": 0.8229166666666666,
+        "recall": 0.4647058823529412,
+        "f1": 0.5939849624060151
+      },
+      "exact_tp_agreement_rows": 59,
+      "exact_pred_count_agreement_rows": 49,
+      "both_counts_agree_rows": 49,
+      "mean_absolute_tp_difference": 0.016666666666666666,
+      "uncertain_rows": 0
+    },
+    "CoVe": {
+      "judged_rows": 60,
+      "human_micro": {
+        "tp": 79,
+        "pred": 111,
+        "gold": 170,
+        "fp": 32,
+        "fn": 91,
+        "precision": 0.7117117117117117,
+        "recall": 0.4647058823529412,
+        "f1": 0.5622775800711743
+      },
+      "judge_micro": {
+        "tp": 81,
+        "pred": 101,
+        "gold": 170,
+        "fp": 20,
+        "fn": 89,
+        "precision": 0.801980198019802,
+        "recall": 0.4764705882352941,
+        "f1": 0.5977859778597786
+      },
+      "exact_tp_agreement_rows": 55,
+      "exact_pred_count_agreement_rows": 49,
+      "both_counts_agree_rows": 47,
+      "mean_absolute_tp_difference": 0.1,
+      "uncertain_rows": 1
+    }
+  },
+  "interpretation": "Scores are manually defined semantic span matches. Counts are not the official MultiSpanQA scorer. Only matched method-pairs should be compared; judge output may require adjudication."
+}

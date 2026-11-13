@@ -1,0 +1,20 @@
+{
+  "source_dataset": "MultiSpanQA",
+  "source_repository": "https://github.com/haonan-li/MultiSpanQA",
+  "source_dataset_home": "https://multi-span.github.io/",
+  "source_original_filename": "TO_VERIFY_FROM_LOCAL_MANIFEST",
+  "source_split": "TO_VERIFY_FROM_LOCAL_MANIFEST",
+  "source_sha256": "TO_VERIFY_FROM_LOCAL_MANIFEST",
+  "selection": {
+    "seed": 42,
+    "min_spans": 2,
+    "max_span_tokens": 3,
+    "limit": 60
+  },
+  "derived_sample_file": "data/multispanqa_pilot_60.jsonl",
+  "derived_sample_sha256": "d8431c39be7d3988da308a278ab12a1c4b38bce0dd90289a4ec6c04f96cc9e66",
+  "derived_sample_rows": 60,
+  "derived_gold_spans": 170,
+  "original_CoVe_418_subset": false,
+  "gold_labels_source": "BIO context annotations; context not given to generation model"
+}
